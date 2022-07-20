@@ -3,53 +3,55 @@
         <title>Registration page</title>
     </head>
     <body>
-        <center>
-            <h3>
-                Customer Registration
-            </h3>
-            User Name:<input type="text" 
-            autofocus
-            pattern="[a-zA-Z]+"
-            maxlength="15"/>
-            <br>
-            <br>
-            Password:<input type="password"
-            pattern="[a-zA-Z0-9]+"
-            maxlength="12"
-            minlength="8"/>
-            <br>
-            <br>
-            Email:<input type="email"/>
-            <br>
-            <br>
-            Gender:<input type="radio" id="Male" name="Gender" value="Male"/>
-            <label for="Male">Male</label>
-            <input type="radio" id="Female" name="Gender" value="Female"/>
-            <label for="Female">Female</label>
-            <input type="radio" id="Other" name="Gender" value="Other"/>
-            <label for="Other">Other</label>
-            <br>
-            <br>
-            Age(Yrs):<input type="number" min="12" max="60"/>
-            <br>
-            <br>
-            Address:<textarea rows="4" cols="20"></textarea>
-            <br>
-            <br>
-            Company website:<a href="#name">https://www.google.com/</a>
-            <br>
-            <br>
-            <label for="country">Choose country</label>
-            <select id="country" name="country">
-                <option value="India">India</option>
-            </select>
-            <br>
-            <br>
-            Date of Journey:<input type="date"/>
-            <br>
-            <br>
-            <input type="button" value="Submit"/>
-            <input type="button" value="Reset"/>
-        </center>
+        <form>
+            <center>
+                <h3>
+                    Customer Registration
+                </h3>
+                User Name:<input type="text" 
+                autofocus
+                pattern="[a-zA-Z]+"
+                maxlength="15"/>
+                <br>
+                <br>
+                Password:<input type="password"
+                pattern="[a-zA-Z0-9]+"
+                maxlength="12"
+                minlength="8"/>
+                <br>
+                <br>
+                Email:<input type="email"/>
+                <br>
+                <br>
+                Gender:<input type="radio" id="Male" name="Gender" value="Male"/>
+                <label for="Male">Male</label>
+                <input type="radio" id="Female" name="Gender" value="Female"/>
+                <label for="Female">Female</label>
+                <input type="radio" id="Other" name="Gender" value="Other"/>
+                <label for="Other">Other</label>
+                <br>
+                <br>
+                Age(Yrs):<input type="number" min="12" max="60"/>
+                <br>
+                <br>
+                Address:<textarea rows="4" cols="20"></textarea>
+                <br>
+                <br>
+                Company website:<a href="https://www.google.com/">visit company</a>
+                <br>
+                <br>
+                <label for="country">Choose country</label>
+                <select id="country" name="country">
+                    <option value="India">India</option>
+                </select>
+                <br>
+                <br>
+                Date of Journey:<input type="date"/>
+                <br>
+                <br>
+                <input type="button" value="Submit" onclick="window.location.href='welcome.html'"/>
+                <input type="reset" value="reset"/>
+            </center>
+        </form>
     </body>
 </html>
