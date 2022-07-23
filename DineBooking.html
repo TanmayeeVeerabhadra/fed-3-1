@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DineBooking</title>
+</head>
+<body>
+    <form>
+        <center>
+            <h3>
+                Dine Booking
+            </h3><br><br>
+            <label>Visitor name:</label>
+            <input type="text" required
+            autofocus
+            maxlength="20"/><br>
+            <label>Number of members:</label>
+            <input type="number" required
+            max="99"
+            maxlength="2"/>
+            <br>
+            <label>Contact No:</label>
+            <input type="tel" maxlength="10" /><br>
+            <label>Email:</label>
+            <input type="email"/><br>
+            <label>Type of Food:</label>
+            <input type="checkbox" name:type1 checked />
+            <label for="type1"  >South Indian</label>
+            <input type="checkbox" name="type2"/>
+            <label for="type2">North Indian</label>
+            <input type="checkbox" name="type3"/>
+            <label for="type3">Chinese</label>
+            <input type="checkbox" name="type4"/>
+            <label for="type4">Western</label><br>
+            <label>Room Status</label>
+            <input type="radio" id="AC" name="room" checked/>
+            <label for="AC">AC</label>
+            <input type="radio" id="Non-AC" name="room"/>
+            <label for="Non-AC">Non-AC</label><br>
+            <label>Venue Preference:</label>
+            <select>
+                <option id="1">--Select--</option>
+                <option id="2">Arena</option>
+                <option id="3">Fiesta</option>
+                <option id="4">Vista</option>
+                <option id="5">Mythri</option>
+                <option id="6">Magna</option>
+                <option id="7">Oasis</option>
+                <option id="8" disabled="true">Amoeba</option>
+            </select> 
+            <br>
+            <br>
+            <input type="button" value="Book"/>
+            <input type="reset" value="Reset"/>
+        </center>
+    </form>  
+</body>
+</html>
