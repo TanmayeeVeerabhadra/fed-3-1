@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DineBooking</title>
+</head>
+<body>
+    <form>
+        <table>
+            <center>
+                <h3>
+                    Dine Booking
+                </h3><br><br>
+                <tr>
+                <td>Visitor name:</td>
+                <td><input type="text" required
+                autofocus
+                maxlength="20"/></td>
+                </tr>
+                <tr>
+                <td><label>Number of members:</label></td>
+                <td><input type="number" required
+                max="99"
+                maxlength="2"/></td>
+                </tr>
+                <tr>
+                <td><label>Contact No:</label></td>
+                <td><input type="tel" maxlength="10" /></td></tr>
+                <tr>
+                <td><label>Email:</label></td>
+                <td><input type="email"/><br></td></tr>
+                <tr><td><label>Type of Food:</label></td>
+                <td><input type="checkbox" name:type1 checked />
+                <label for="type1"  >South Indian</label>
+                <input type="checkbox" name="type2"/>
+                <label for="type2">North Indian</label>
+                <input type="checkbox" name="type3"/>
+                <label for="type3">Chinese</label>
+                <input type="checkbox" name="type4"/>
+                <label for="type4">Western</label><br>
+                </td></tr>
+                <tr>
+                <td><label>Room Status</label></td>
+                <td><input type="radio" id="AC" name="room" checked/>
+                <label for="AC">AC</label>
+                <input type="radio" id="Non-AC" name="room"/>
+                <label for="Non-AC">Non-AC</label><br></td></tr>
+                <tr>
+                <td><label>Venue Preference:</label></td>
+                <td><select>
+                    <option>--Select--</option>
+                    <option>Arena</option>
+                    <option>Fiesta</option>
+                    <option>Vista</option>
+                    <option>Mythri</option>
+                    <option>Magna</option>
+                    <option>Oasis</option>
+                    <option disabled="true">Amoeba</option>
+                </select> 
+                </td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                <td><input type="button" value="Book"/></td>
+                <td><input type="reset" value="Reset"/></td>
+                </tr>
+            </center>
+        </table>
+    </form>  
+</body>
+</html>
