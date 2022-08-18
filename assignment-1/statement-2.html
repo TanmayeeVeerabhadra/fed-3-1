@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <center>
+            <label><b><sup><span><font color="red">*</font></span></sup>First Name:</b></label>
+            <input type="text" maxlength="10" required/>
+            <br>
+            <label><b><sup><span><font color="red">*</font></span></sup>Last Name:</b></label>
+            <input type="text" maxlength="10" required/>
+            <br>
+            <label><b><sup><span><font color="red">*</font></span></sup>Date of Birth:</b></label>
+            <input type="date" required/>
+            <br>
+            <label><b>Gender:</b></label>
+            <input type="radio" id="Male" name="Gender" value="Male"/>
+                <label for="Male">Male</label>
+                <input type="radio" id="Female" name="Gender" value="Female"/>
+                <label for="Female">Female</label>
+                <input type="radio" id="Other" name="Gender" value="Other"/>
+                <label for="Other">Other</label>
+            <br>
+            <label><b>Degree:</b></label>
+            <select>
+                <option>Bachelors</option>
+                <option>Masters</option>
+                <option>Doctrate</option>
+            </select>
+            <br>
+            <label><b><sup><span><font color="red">*</font></span></sup>Specialization:</b></label>
+            <input type="text" maxlength="40" required/>
+            <br>
+            <label><b><sup><span><font color="red">*</font></span></sup>Current GPA:</b></label>
+            <input type="number"  min="0" max="5" step="0.1" required/>
+            <br>
+            <label><b><sup><span><font color="red">*</font></span></sup>Phone Number:</b></label>
+            <input type="tel" required/>
+            <br>
+            <label><b><sup><span><font color="red">*</font></span></sup>Address:</b></label>
+            <textarea rows="4" cols="50" maxlength="200" required></textarea>
+            <br>
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+        </center>
+    </form>
+</body>
+</html>
