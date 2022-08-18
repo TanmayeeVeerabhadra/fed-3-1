@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Position</title>
+    <style>
+        body{
+            height: 500px;
+            width:500px
+        }
+        .header{
+            background-color: aqua;
+            position: relative;
+            height: 30px;
+        }
+        .content1{
+            background-color: bisque;
+            position: absolute;
+            top: 0px;
+            left:300px;
+            width: 300px;
+            height: 20px;
+
+        }
+        .content{
+            background-color: plum;
+            left:30px;
+            height:100px;
+            position: relative;
+        }
+        .content2{
+            background-color: bisque;
+            top: 16px;
+            left:125px;
+            width: 300px;
+            height:40px;
+            position: absolute;
+        }
+        .content3{
+            background-color: bisque;
+            position: absolute;
+            top: 65px;
+            left:60px;
+            width: 300px;
+        }
+        .footer{
+            background-color: aqua;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Header
+        <div class="content1">
+          Content 1  
+        </div>
+    </div>
+    <div class="content">Content
+        <div class="content2">Content 2</div>
+        <div class="content3">Content 3</div>
+    </div>
+    <div class="footer">
+        Footer
+    </div>
+</body>
+</html>
